@@ -26,8 +26,8 @@
 
 	### Links
 
-	- Solution URL: [Add solution URL here](https://your-solution-url.com)
-	- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+	- Solution URL: [Solution](https://github.com/laminkoko243/eimaung.com-clone/)
+	- Live Site URL: [Live Site](https://laminkoko243.github.io/eimaung.com-clone/)
 
 	## My process
 
