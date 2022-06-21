@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* index */
+
+p {
+    color: #222;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+a.index-a {
+    color: #880;
+    text-decoration: underline dotted;
+}
+
+i {
+    padding-right: 10px;
+}
+
+small {
+    font-size: .6rem;
+    color: #777;
+}
+
+#index-header {
+    padding: 80px 10% 50px;
+    background-color: #282828;
+    text-align: center;
+}
+
+
+.profile-img {
+    margin-bottom: 20px;
+}
+
+.header-h1, .header-h2, .header-h3 {
+    color: white;
+}
+
+.header-h1 {
+    margin-bottom: 30px;  
+    font-size: 2.5rem;  
+}
+
+.header-h2, .header-h3 {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.header-h2 {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#index-main {
+    padding-top: 100px;
+    text-align: left;
+}
+
+
+#web-dev {
+    margin-bottom: 100px;
+}
+
+/* #index-main h2 {
+    color: black;
+} */
+
+.index-main-h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.author-span {
+    margin-left: 0.3125rem;
+    padding: 0.625em;
+    font-size: 1rem;
+    background-color: #efefef;
+    border-radius: 0.3125em;
+}
+
+#index-ul {
+    border: 1px solid #e5e5e5;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#index-li {
+    padding: 3.125rem;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+#index-col-1 {
+    text-align: center;
+}
+
+#index-col-1 img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-bottom: 1rem;
+}
+
+h4.books-title {
+    font-size: 1.2rem;
+    display: inline-block;
+    color: #880;
+    font-weight: 400;
+}
+
+h4.books-title a {
+    text-decoration: none;
+}
+
+#index-li:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+.contact {
+    width: 50%;
+    margin: 3.125rem auto 3.125rem;
+}
+
+h2.contact-h2 {
+    font-size: 1.7rem;
+    padding-bottom: .625rem;
+}
+
+@media (max-width: 768px) {
+
+    #index-li {
+        flex-direction: column;
+
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .contact {
+        width: 85%;
+    }
+
+    #index-col-1 img {
+        width: 6.12rem;
+        height: 6.12rem;
+    }
+}
+
+/* PWD2022 */
+
+.book-heading {
+    padding: 1.25rem;
+    
+}
+
+.img-col {
+    padding-top: 3.125rem;
+}
+
+.book-col-2 {
+    flex-basis: 35%;
+}
+
+.link-to-back {
+    color: #666;
+    font: 300;
+}
+
+.download-button {
+    text-decoration: none;
+    margin-top: 3.125em;
+    padding: 0.625em 1.25em;
+    border-radius: 5px;
+}
+
+ul.content {
+    margin: 3.125rem auto;
+    list-style-type: none;
+    text-align: left;
+    border: 1px solid #e5e5e5;
+}
+
+li.content {
+    padding: 10px  10px;
+}
+
+li.top {
+    color: white;
+    font-weight: bold;
+}
+
+li.chapter {
+    text-align: center;
+    /* background-color:  #e5e5e5; */
+}
+
+.content:nth-child(even) {
+    background-color: #eee;
+}
+
+footer {
+    line-height: 2;
+    color: #666;
+    margin: 3.125rem;
+}
+
+.book-footer {
+    font-weight: bold;
+    color:#f68e0a;
+}
+
+#pwd2022-book-heading {
+    color: #4d8cdf;
+}
+#pwd2022-download-button {
+    color: #4d8cdf;
+    border: 1px solid #4d8cdf;
+}
+
+#pwd2022-download-button:hover {
+    background-color: #4d8cdf;
+    color: white;
+}
+
+#pwd2022-top {
+    background-color: #4d8cdf;
+}
+
+
+
+/* Bitcoin */
+
+
+
+#bitcoin-book-heading {
+    color: #f68e0a;
+}
+
+.bitcoin-row {
+    margin-top: 3.125rem;
+    justify-content: space-around;
+}
+
+
+
+#bitcoin-download-button {
+    color: #f68e0a;
+    border: 1px solid #f68e0a;
+}
+
+#bitcoin-download-button:hover {
+    color: white;
+    background-color: #f68e0a;
+    
+}
+
+#bitcoin-top {
+    background-color: #f68e0a;
+}
+
+/* Bootstrap */
+
+#bootstrap-book-heading {
+    color: #8111F9;
+}
+
+#bootstrap-download-button {
+    color: #8111F9;
+    border: 1px solid #8111F9;
+}
+
+#bootstrap-download-button:hover {
+    color: white;
+    background-color: #8111F9;
+}
+
+#bootstrap-top {
+    background-color: #8111F9;
+}
+
+/* JavaScript */
+
+.black-body {
+    background-color: #333;
+    color: white;
+}
+
+ul.black-body-ul {
+    border: 1px solid #111;
+}
+
+#javascript-book-heading {
+    color: #F0D81E;
+}
+
+#javascript-download-button {
+    color: #F0D81E;
+    border: 1px solid #F0D81E;
+    background-color: #222;
+}
+
+#javascript-download-button:hover {
+    color: #222;
+    background-color:#F0D81E; 
+}
+
+#js-li:nth-child(even) {
+    background-color: #111;
+}
+
+#javascript-top {
+    background-color: #F0D81E;
+}
+
+/* PHP */
+
+#php-book-heading {
+    color: #1263ab;
+}
+
+#php-download-button {
+    color: #1263ab;
+    border: 1px solid #1263ab;
+}
+
+#php-download-button {
+    color: white;
+    background-color: #1263ab;
+}
+
+#php-top {
+    background-color: #1263ab;
+}
+
+/* Laravel */
+
+#laravel-book-heading {
+    color: #ff291b;
+}
+
+#laravel-download-button {
+    color: #ff291b;
+    border: 1px solid #ff291b;
+}
+
+#laravel-download-button:hover {
+    background-color: #ff291b;
+    color: white;
+}
+
+#laravel-top {
+    background-color: #ff291b;
+}
+
+/* React  */
+
+#react-book-heading {
+    color: cyan;
+}
+
+#react-download-button {
+    color: cyan;
+    border: 1px solid cyan;
+    background-color: #333;
+}
+
+#react-download-button:hover {
+    color: #333;
+    background-color: cyan;
+}
+
+.black-body-li:nth-child(even) {
+    background-color: #111;
+}
+
+#react-top {
+    background-color: cyan;
+}
+
+/* API */
+
+#api-book-heading {
+    color: #3b9435;
+}
+
+#api-download-button {
+    color: #3b9435;
+    border: 1px solid #3b9435;
+}
+
+#api-download-button:hover {
+    color: white;
+    background-color: #3b9435;
+}
+
+#api-top {
+    background-color: #3b9435;
+}
+
+/* PWD */
+
+#pwd-book-heading {
+    color: #4F5B93;
+}
+
+#pwd-download-button {
+    color:#4F5B93;
+    border: 1px solid #4F5B93;
+}
+
+#pwd-download-button:hover {
+    color: white;
+    background-color: #4F5B93;    
+}
+
+#pwd-top {
+    background-color: #4F5B93;
+}
+
+
+/* Rockstar Developer */
+
+#rockstar-developer-book-heading {
+    color: #f4c900;
+}
+
+#rockstar-developer-download-button {
+    color: #f4c900;
+    border: 1px solid #f4c900;
+    background-color: black;
+}
+
+#rockstar-developer-download-button:hover {
+    color: black;
+    background-color: #f4c900;
+}
+
+#rockstar-developer-top {
+    background-color: #f4c900;
+}
+
+/* Ubuntu */
+
+#ubuntu-book-heading {
+    color: #dc4915;
+}
+
+#ubuntu-download-button {
+    color: #dc4915;
+    border: 1px solid #dc4915;
+    
+}
+
+#ubuntu-download-button:hover {
+    color: white;
+    background-color: #dc4915;
+    
+}
+
+#ubuntu-top {
+    background-color: #dc4915;
+}
+
+
+@media (max-width: 1280px) {
+
+    #pwd2022-book-img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .book-row {
+        flex-direction: column;
+    }
+
+    .link-to-back {
+        padding-bottom: 3.125rem;
+    }
+
+    .book-heading {
+        font-size: 1.5rem;
+    }
+}
