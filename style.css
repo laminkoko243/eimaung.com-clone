@@ -13,7 +13,7 @@ html {
 
 /* index */
 
-p {
+p, index-col-2 {
     color: #222;
     font-weight: 300;
     font-size: 1.2rem;
